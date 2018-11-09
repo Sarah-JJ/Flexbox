@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--<link rel="stylesheet" href="style.css">-->
+    <style>#container {
+            width: 80%;
+            margin: auto;
+            flex-wrap: wrap;
+        }
+
+        #content {
+            display: flex;
+            justify-content: center;
+            justify-items: center;
+        }
+
+        #content #recent_links {
+            /*background: red;*/
+            width: 200px;
+            flex-grow: 2;
+        }
+
+        #content #most_viewed {
+            flex-grow: 1;
+            width: 200px;
+            margin-left: 10px;
+            margin-top: 0;
+            /*background: blue;*/
+        }
+
+        #recent_links article {
+            display: flex;
+            margin-bottom: 15px;
+        }
+
+        header img, body {
+            margin: 0;
+            padding: 0;
+        }
+
+        article div:nth-child(2) {
+            padding-left: 5px;
+        }
+
+        #most_viewed, #recent_links {
+            font-family: Serif;
+        }
+
+        #recent_links p:nth-child(1), #most_viewed p:nth-child(1) {
+            font-family: Serif;
+            color: darkgray;
+            font-size: 17px;
+            font-weight: bold;
+            margin-top: 0;
+        }
+
+        #most_viewed div{
+            margin-bottom: 8px;
+            position: relative;
+        }
+
+        #most_viewed img{
+            position: absolute;
+            left: 0;
+            top: 0;
+        }
+
+        .text-wrapper{
+            z-index: 100;
+            color: white;
+            width: 260px;
+            height: 320px;
+            position: absolute;
+            left: 20px;
+            top: 200px;
+        }
+
+        #most_viewed article{
+        }</style>
+</head>
+<body>
+
+<header>
+    <img src="/logo.e9a9c890.png" width="150px" height="150px">
+</header>
+
+<div id="container">
+
+
+    <section id="content">
+        <div id="recent_links">
+            <p> Recent Links </p>
+
+            <article>
+                <div>
+                    <img src="https://unsplash.it/180/180">
+                </div>
+                <div>
+                    <h1>Lorem Ipsum Dolor Sit Amet</h1>
+                    <p>Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
+                        Lorem ipsum Lorem ipsum
+                    </p>
+                </div>
+            </article>
+
+            <article>
+                <div>
+                    <img src="https://unsplash.it/180/180">
+
+                    <h1>Lorem Ipsum Dolor Sit Amet</h1>
+                    <p>Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
+                        Lorem ipsum Lorem ipsum
+                    </p>
+                </div>
+            </article>
+
+            <article>
+                <div>
+                    <img src="https://unsplash.it/180/180">
+                </div>
+                <div>
+                    <h1>Lorem Ipsum Dolor Sit Amet</h1>
+                    <p>Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
+                        Lorem ipsum Lorem ipsum
+                    </p>
+                </div>
+            </article>
+
+            <article>
+                <div>
+                    <img src="https://unsplash.it/180/180">
+                </div>
+                <div>
+                    <h1>Lorem Ipsum Dolor Sit Amet</h1>
+                    <p>Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
+                        Lorem ipsum Lorem ipsum
+                    </p>
+                </div>
+            </article>
+        </div>
+
+        <div id="most_viewed">
+            <p>Most Viewed</p>
+
+            <article>
+                <div>
+                    <img src="https://unsplash.it/280/340">
+
+                    <div class="text-wrapper">
+                        <h1>Lorem Ipsum Dolor Sit Amet</h1>
+                        <p>Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem
+                            ipsum
+                            Lorem ipsum Lorem ipsum
+                        </p>
+                    </div>
+                </div>
+            </article>
+
+            <article>
+                <div>
+                    <img src="https://unsplash.it/280/340">
+
+                    <div class="text-wrapper">
+                        <h1>Lorem Ipsum Dolor Sit Amet</h1>
+                        <p>Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem
+                            ipsum
+                            Lorem ipsum Lorem ipsum
+                        </p>
+                    </div>
+                </div>
+            </article>
+
+            <article>
+                <div>
+                    <img src="https://unsplash.it/280/340">
+
+                    <div class="text-wrapper">
+                        <h1>Lorem Ipsum Dolor Sit Amet</h1>
+                        <p>Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem
+                            ipsum
+                            Lorem ipsum Lorem ipsum
+                        </p>
+                    </div>
+                </div>
+            </article>
+
+
+        </div>
+    </section>
+</div>
+
+<script src="/app.c328ef1a.js"></script>
+</body>
+</html>

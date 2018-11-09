@@ -1,0 +1,21 @@
+#container {
+    width: 80%;
+    margin: auto;
+}
+
+#content{
+    display: flex;
+}
+
+#content #recent_links{
+    background: red;
+}
+
+#content #most_viewed{
+    background: blue;
+}
+
+#i{
+    background: yellow;
+}
+
